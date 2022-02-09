@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    background: url(nyy.jpg);
+}
+.family .sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: rgba(0, 74, 110, 0.993);
+    padding: 30px 0;
+    text-align: center;
+}
+.family .sidebar img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+.family .sidebar img:hover{
+    transform: scale(0.9);
+}
+.family .sidebar h2{
+    color: #f0f8ff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.family .sidebar h2 span{
+    color: black;
+    transition: .5s;
+}
+.family .sidebar h2 span:hover{
+    color: #f0f8ff;
+}
+.family .sidebar h2:hover{
+    color: black;
+}
+.family .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid black;
+    transition: .5s;
+}
+.family .sidebar ul li:hover{
+    background: black;
+}
+.family .sidebar .socialmedia{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.family .sidebar .socialmedia a{
+    display: block;
+    width: 40px;
+    background: black;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    color: #f0f8ff;
+    border-top-right-radius: 7px;
+    transition: .5s;
+}
+.family .sidebar .socialmedia a:hover{
+    background-color: rgba(0, 74, 110, 0.993) ;
+}
+
+
+.family .sidebar ul li a{
+    color: #f0f8ff;
+}
+.family .mainarea{
+    margin-left: 250px;
+}
+.family .mainarea .header{
+    padding: 20px;
+    background: #f0f8ff;
+    color: #717171;
+}
+.family .mainarea .container{
+     width: 100%;
+     max-width: 1500px;
+     overflow: hidden;
+     margin:auto;
+    }
+.family .mainarea .container .post{
+    width: 40%;
+    overflow: hidden;
+    background: #f1f1f1;
+    float: left;
+    margin: 70px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    transition: .5s;
+    
+}    
+.family .mainarea .container .post:hover{
+transform: scale(0.9);
+}
+
+.post img{
+    width: 100%;
+    height: 280px;
+}
+
